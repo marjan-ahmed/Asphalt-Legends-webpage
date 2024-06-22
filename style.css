@@ -558,7 +558,7 @@ img{
 
     .download-2, .learn {
         width: 55%;
-        margin-left: 73px;
+        margin-left: 75px;
         font-size: 20px;
     }
 
@@ -591,7 +591,7 @@ img{
         display: block;
         width: 70%;
         height: 36vh;
-        margin-left: 24vw;
+        margin-left: 25vw;
         margin-top: 22px;
     }
 
@@ -602,8 +602,8 @@ img{
     .conversation {
         text-align: center;
         margin: 10vh auto;
-        margin-top: 18vh;
-        margin-bottom: 0vh;
+        margin-top: 21vh;
+        margin-bottom: -20vh;
     }
 
     #join, #conversation {
@@ -623,6 +623,7 @@ img{
     .four-sec {
         height: auto;
         padding: 20px;
+        margin-top: -30px;
     }
 
     .container-heading-1 {
