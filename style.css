@@ -437,6 +437,7 @@ img{
 
 .social-img{
     cursor: pointer;
+    width: 20%;
 }
 
 .social-img:hover{
@@ -487,3 +488,4 @@ img{
     font-family: 'Rajdhani', sans-serif;
     font-weight: 800;
 }
+
