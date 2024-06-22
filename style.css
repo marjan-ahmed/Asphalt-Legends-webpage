@@ -492,6 +492,16 @@ img{
 
 /* Mobile styles */
 @media only screen and (max-width: 767px) {
+
+    .first-sec{
+        width: 100%;
+        height: 100vh;
+        background-image: url('images/asphalt\ legend\ bg.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+    }
+
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -499,7 +509,7 @@ img{
     }
 
     .logo {
-        width: 50%;
+        width: 70%;
         margin: 1vh auto;
     }
 
@@ -514,7 +524,7 @@ img{
     }
 
     .download {
-        width: 80%;
+        width: 100%;
         height: auto;
         font-size: 16px;
         padding: 10px;
@@ -526,15 +536,15 @@ img{
         padding: 10px;
         margin-top: 20px;
     }
-
     .container {
         height: auto;
+        margin-bottom: 20px;
     }
 
     .whats-new {
         font-size: 32px;
         padding-top: 20vh;
-        padding-left: 5vw;
+        padding-left: 7vw;
     }
 
     .heading2-sec, .heading3-sec, .para-sec {
@@ -547,12 +557,18 @@ img{
     }
 
     .download-2, .learn {
-        width: 90%;
+        width: 55%;
+        margin-left: 73px;
         font-size: 20px;
     }
 
+    .learn{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
     .thr-sec {
-        height: auto;
+        height: 133vh;
     }
 
     .heading-container3 {
@@ -565,7 +581,7 @@ img{
     }
 
     .download-3 {
-        width: 90%;
+        width: 100%;
         margin-left: 5vw;
     }
 
@@ -582,6 +598,8 @@ img{
     .conversation {
         text-align: center;
         margin: 10vh auto;
+        margin-top: 23vh;
+        margin-bottom: 0vh;
     }
 
     #join, #conversation {
@@ -649,12 +667,14 @@ img{
     .footer-li {
         width: 90%;
         margin-top: 20px;
+        margin-right: 60px;
     }
 
     .footer-btn {
         width: 90%;
         font-size: 16px;
         padding: 10px;
+        margin-right: 50px;
     }
 }
 
@@ -749,7 +769,7 @@ img{
     .conversation {
         text-align: center;
         margin: 10vh auto;
-        margin-top: 10vh
+        margin-top: 15vh
     }
 
     #join, #conversation {
