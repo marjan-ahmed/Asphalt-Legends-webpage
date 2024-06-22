@@ -307,7 +307,7 @@ img{
 .conversation{
     align-items: end;
     text-align: end;
-    margin-top: 15vh;
+    margin-top: 20vh;
     margin-right: 10vw;
     text-transform: uppercase;
     color: white;
@@ -570,12 +570,13 @@ img{
     }
 
     .apps {
-        width: 90%;
+        width: 70%;
+        height: 36vh;
         margin-left: 5vw;
     }
 
     img {
-        width: 80%;
+        width: 70%;
     }
 
     .conversation {
@@ -719,7 +720,7 @@ img{
     }
 
     .thr-sec {
-        height: auto;
+        height: 120vh;
     }
 
     .heading-container3 {
@@ -736,9 +737,9 @@ img{
         margin-left: 10vw;
     }
 
-    .apps {
-        width: 80%;
-        margin-left: 10vw;
+    img .apps{
+        visibility: hidden;
+        width: 10px;
     }
 
     img {
@@ -748,6 +749,7 @@ img{
     .conversation {
         text-align: center;
         margin: 10vh auto;
+        margin-top: 10vh
     }
 
     #join, #conversation {
@@ -756,7 +758,7 @@ img{
 
     .fa-message {
         font-size: 60px;
-        margin-top: -40px;
+        margin-top: 20px;
     }
 
     .discord, .fb-group {
