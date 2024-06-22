@@ -564,11 +564,12 @@ img{
 
     .learn{
         margin-top: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .thr-sec {
         height: 133vh;
+        margin-top: -20px;
     }
 
     .heading-container3 {
@@ -582,13 +583,16 @@ img{
 
     .download-3 {
         width: 100%;
-        margin-left: 5vw;
+        margin-left: 1vw;
+        padding-left: 13px;
     }
 
     .apps {
+        display: block;
         width: 70%;
         height: 36vh;
-        margin-left: 5vw;
+        margin-left: 24vw;
+        margin-top: 22px;
     }
 
     img {
@@ -598,7 +602,7 @@ img{
     .conversation {
         text-align: center;
         margin: 10vh auto;
-        margin-top: 23vh;
+        margin-top: 18vh;
         margin-bottom: 0vh;
     }
 
