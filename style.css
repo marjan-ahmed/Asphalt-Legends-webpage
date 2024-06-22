@@ -489,3 +489,337 @@ img{
     font-weight: 800;
 }
 
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .logo {
+        width: 50%;
+        margin: 1vh auto;
+    }
+
+    li {
+        float: none;
+        margin-left: 0;
+        margin: 10px 0;
+    }
+
+    .first-li-btn {
+        margin-left: 0;
+    }
+
+    .download {
+        width: 80%;
+        height: auto;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .trailer-btn {
+        font-size: 20px;
+        width: auto;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .whats-new {
+        font-size: 32px;
+        padding-top: 20vh;
+        padding-left: 5vw;
+    }
+
+    .heading2-sec, .heading3-sec, .para-sec {
+        width: 90%;
+        margin-left: 5vw;
+    }
+
+    .supercharged, .summer {
+        font-size: 24px;
+    }
+
+    .download-2, .learn {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .thr-sec {
+        height: auto;
+    }
+
+    .heading-container3 {
+        margin-left: 5vw;
+        padding-top: 10vh;
+    }
+
+    .racing, .arcade-racing {
+        font-size: 24px;
+    }
+
+    .download-3 {
+        width: 90%;
+        margin-left: 5vw;
+    }
+
+    .apps {
+        width: 90%;
+        margin-left: 5vw;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    .conversation {
+        text-align: center;
+        margin: 10vh auto;
+    }
+
+    #join, #conversation {
+        font-size: 32px;
+    }
+
+    .fa-message {
+        font-size: 50px;
+        margin-top: -30px;
+    }
+
+    .discord, .fb-group {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .four-sec {
+        height: auto;
+        padding: 20px;
+    }
+
+    .container-heading-1 {
+        font-size: 24px;
+    }
+
+    .container-btn {
+        width: 80%;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .stay {
+        font-size: 24px;
+        margin-top: 10vh;
+    }
+
+    .social-icons {
+        flex-direction: column;
+        margin: 20px auto;
+        gap: 20px;
+    }
+
+    .social-icons i {
+        font-size: 50px;
+    }
+
+    .social-img {
+        width: 50%;
+    }
+
+    .gameloft {
+        width: 50%;
+        margin-top: 10vh;
+    }
+
+    .copyright-container {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .footer-li {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .footer-btn {
+        width: 90%;
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .logo {
+        width: 30%;
+        margin: 1vh auto;
+    }
+
+    li {
+        float: none;
+        margin-left: 0;
+        margin: 10px 0;
+    }
+
+    .first-li-btn {
+        margin-left: 0;
+    }
+
+    .download {
+        width: 60%;
+        height: auto;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .trailer-btn {
+        font-size: 24px;
+        width: auto;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .whats-new {
+        font-size: 48px;
+        padding-top: 20vh;
+        padding-left: 5vw;
+    }
+
+    .heading2-sec, .heading3-sec, .para-sec {
+        width: 80%;
+        margin-left: 10vw;
+    }
+
+    .supercharged, .summer {
+        font-size: 28px;
+    }
+
+    .download-2, .learn {
+        width: 80%;
+        font-size: 24px;
+    }
+
+    .thr-sec {
+        height: auto;
+    }
+
+    .heading-container3 {
+        margin-left: 10vw;
+        padding-top: 10vh;
+    }
+
+    .racing, .arcade-racing {
+        font-size: 36px;
+    }
+
+    .download-3 {
+        width: 80%;
+        margin-left: 10vw;
+    }
+
+    .apps {
+        width: 80%;
+        margin-left: 10vw;
+    }
+
+    img {
+        width: 60%;
+    }
+
+    .conversation {
+        text-align: center;
+        margin: 10vh auto;
+    }
+
+    #join, #conversation {
+        font-size: 36px;
+    }
+
+    .fa-message {
+        font-size: 60px;
+        margin-top: -40px;
+    }
+
+    .discord, .fb-group {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .four-sec {
+        height: auto;
+        padding: 20px;
+    }
+
+    .container-heading-1 {
+        font-size: 32px;
+    }
+
+    .container-btn {
+        width: 60%;
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .stay {
+        font-size: 28px;
+        margin-top: 10vh;
+    }
+
+    .social-icons {
+        flex-direction: row;
+        margin: 20px auto;
+        gap: 20px;
+    }
+
+    .social-icons i {
+        font-size: 60px;
+    }
+
+    .social-img {
+        width: 40%;
+    }
+
+    .gameloft {
+        width: 40%;
+        margin-top: 10vh;
+    }
+
+    .copyright-container {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+
+    .footer-li {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .footer-btn {
+        width: 80%;
+        font-size: 18px;
+        padding: 10px;
+    }
+}
