@@ -16,7 +16,7 @@
     </div>
 
     <div class="navbar">
-    <ul>
+    <ul class="nav-ul">
         <li class="logo"><img class="logo" src="https://asphalt9.assets.gameloft.com/assets/a9_logo_12de60294a.png" alt="asphalt-logo"></li>
         <li class="first-li-btn"><a href="#">Home</a></li>
         <li class="li-btn"><a href="#">creators</a></li>
@@ -24,6 +24,7 @@
         <li class="li-btn"><a href="#">supports</a></li>
         <li class="li-btn"><a href="#">esports</a></li>
         <li class="download-li-btn"><a href="#"><button class="download">downlaod</button></a></li>
+        <div class="bar-icon" id="bar-icon">&#9776;</div>
     </ul>
 
     </div>
@@ -31,9 +32,23 @@
     <div class="name-display">
         <img class="img-name" src="https://asphalt9.assets.gameloft.com/assets/a9_logo_48c27acb7b.png" alt="name-of-game">
         <div data-aos="fade-up">
-        <a href="#"><button class="trailer-btn">watch the trailer</button></a>
+
+        <div class="highlighted-container">
+        <a href="#"><button id="trailer-btn">watch the trailer</button></a>
+        <div class="overlay" id="overlay">
+            <div class="cancel-btn" id="cancelBtn">×</div>
+        </div>
+
+        <div class="highlight-section" id="highlightSection">
+
+            <iframe id="videoFrame" src="https://www.youtube.com/embed/cwwdPuIqGfc?start=1&end=29&vq=hd1080&autoplay=1&rel=0&fs=0" width="850" height="470" title="Asphalt 9 - Black Friday Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
     </div>
     </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
 
 </section class="second-sec">
     <div class="container">
